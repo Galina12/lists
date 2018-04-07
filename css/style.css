@@ -1,0 +1,115 @@
+
+	
+*{
+	box-sizing: border-box;
+  text-align: center;
+}
+body{
+	background-size: cover;
+	    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+}
+
+
+.block {
+	width:100px;
+	height:50px;
+	background-color: #080808;
+		display: inline-block;
+		position: relative;
+		top: 130px;
+		color: white;
+		border-right: 1px solid #282824;
+		margin-right: -4px;
+  
+}
+ul{
+	list-style-type: none;
+	font-size: 14px;
+	color: grey;
+}
+li{
+	position: absolute;
+	width: 130px;
+	height: 50px;
+	background-color: white;
+	border: 1px dotted grey;
+	right: 500px;
+	line-height: 50px;
+
+  
+}
+.el1::before{
+	content: '';
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	background: url(../img/twiter.png) center right no-repeat;
+   margin-right: 15px;
+
+
+}
+.el2::before{
+	content: '';
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	background: url(../img/contact.png) center right no-repeat;
+   margin-right: 15px;
+
+   
+}
+.el3::before{
+	content: '';
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	background: url(../img/ncontact.png) center right no-repeat;
+    margin-right: 15px;
+
+   
+}
+.about{
+	background-color: #fffffd;
+	width: 120px;
+	color: black;
+border: 1px solid black;
+  position: absolute;
+  display: inline-block;
+  margin-top: 78px;
+ }
+
+
+.one {
+	
+	display: inline-block;
+ margin-top: 128px;
+  position: absolute;
+ 
+}
+.two {
+	display: inline-block;
+	 position: absolute;
+	margin-top: 178px;
+  
+}
+.three{
+	display: inline-block;
+	position: absolute;
+	margin-top: 228px;
+  
+}
+.li3{
+	opacity: 0;
+}
+	
+
+.li3:hover{
+  
+opacity: 1;
+	
+}
+
